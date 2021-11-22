@@ -150,23 +150,23 @@ scopin-example/
 vender/
   component/
     app_logo/default/app_logo.tsx
-		footer/default/footer.tsx
+    footer/default/footer.tsx
     social/default/social.tsx
   html_fragment/
-			prod/
-        CUSTOM_META.fragment.html
-			CUSTOM_META.fragment.html
-			PRE_HOOKS.fragment.html
-			POST_HOOKS.fragment.html
-			SERVICE_WORKER.fragment.html
+    prod/
+      CUSTOM_META.fragment.html
+    CUSTOM_META.fragment.html
+    PRE_HOOKS.fragment.html
+    POST_HOOKS.fragment.html
+    SERVICE_WORKER.fragment.html
   i18n/
-			message.ts
-	resource/
-			images/
-				favicon.png
-			root/
-			sw/
-				service_worker.js
+    message.ts
+  resource/
+    images/
+      favicon.png
+    root/
+    sw/
+    service_worker.js
   custom_components.ts
 ```
 
