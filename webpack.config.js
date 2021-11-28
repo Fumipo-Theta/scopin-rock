@@ -100,6 +100,7 @@ module.exports = (process_env, argv) => {
                     { from: `${coreDir}/css`, to: outputPath + "/css" },
                     { from: `${coreDir}/images`, to: outputPath + "/images" },
                     { from: `${coreDir}/js/lib`, to: outputPath + "/js/lib" },
+                    { from: `${venderDir}/resource/js-lib`, to: outputPath + "/js/lib" },
                     { from: `${venderDir}/resource/root`, to: outputPath + "/" },
                     { from: `${venderDir}/resource/images`, to: outputPath + "/images" },
                 ]
