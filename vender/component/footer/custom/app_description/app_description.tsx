@@ -18,6 +18,7 @@ type AppDescriptionProps = {
     message: IAppDescriptionMessage,
 }
 
+const appRepo = "https://github.com/Fumipo-Theta/scopin-rock/"
 
 export const AppDescription: React.FC<AppDescriptionProps> = ({ app_version, message }) => {
     const [lang, _] = useLang()
@@ -33,7 +34,7 @@ export const AppDescription: React.FC<AppDescriptionProps> = ({ app_version, mes
                     <li>{withFallbackLanguage(message.announceCopyRight, lang)}</li>
                     <li><a href="./about.html">{withFallbackLanguage(message.privacyPolicy, lang)}</a></li>
                     <li>{withFallbackLanguage(message.sourceCodeAvailableAt, lang)} <a
-                        href="https://github.com/Fumipo-Theta/microscope_simulator/">GitHub</a></li>
+                        href={appRepo}>GitHub</a></li>
                 </ul>
             </div>
         </>
