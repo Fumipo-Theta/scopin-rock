@@ -64,7 +64,6 @@ function makePackageJson(base, appName) {
         repository: {},
         keywords: [],
         author: "",
-        license: "",
         bugs: {},
         homepage: "",
         devDependencies: {},

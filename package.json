@@ -16,14 +16,14 @@
     "start": "webpack serve --mode development --hot --inline --port 8080",
     "storybook": "start-storybook -p 6006 -s ./",
     "build-storybook": "build-storybook",
-    "update:core": "node script/core/update_core.js"
+    "update:core": "node script/core/update_core.js",
+    "update:core:local": "node script/util/update_core_local.js"
   },
   "repository": {},
   "keywords": [],
-  "author": "",
-  "license": "",
+  "author": "Fumipo-Theta",
   "bugs": {},
-  "homepage": "",
+  "homepage": "https://microscope.fumipo-theta.com/",
   "devDependencies": {
     "@babel/core": "^7.14.8",
     "@storybook/addon-actions": "^6.3.7",
