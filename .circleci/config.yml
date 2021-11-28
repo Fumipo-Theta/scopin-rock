@@ -10,10 +10,10 @@ jobs:
           command: yarn install
       - run:
           name: clone core
-          command: mkdir deps/ && git clone https://github.com/Fumipo-Theta/microscope_simulator.git ./deps/microscope_simulator
+          command: mkdir deps/ && git clone https://github.com/Fumipo-Theta/scopin-core.git ./deps/scopin-core
       - run:
           name: switch core to dev branch
-          command: npm run update:core -- master
+          command: yarn update:core master
       - run:
           name: build for production
           command: CONFIG_JSON=$CONFIG_JSON_DEV yarn build
@@ -33,10 +33,10 @@ jobs:
           command: yarn install
       - run:
           name: clone core
-          command: mkdir deps/ && git clone https://github.com/Fumipo-Theta/microscope_simulator.git ./deps/microscope_simulator
+          command: mkdir deps/ && git clone https://github.com/Fumipo-Theta/scopin-core.git ./deps/scopin-core
       - run:
           name: switch core to prod branch
-          command: npm run update:core -- release
+          command: yarn update:core release
       - run:
           name: build for production
           command: CONFIG_JSON=$CONFIG_JSON_PROD yarn build:prod
