@@ -1,6 +1,6 @@
 {
   "name": "scopin-rock",
-  "version": "2.4.3-rc2",
+  "version": "2.4.3",
   "description": "Instance of microscope_simulator",
   "main": "/release/js/app.js",
   "directories": {
